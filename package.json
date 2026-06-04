@@ -1,11 +1,12 @@
 {
-  "name": "intern-js-crud-app",
+  "name": "intern-project",
+  "private": true,
   "version": "1.0.0",
-  "description": "Buggy JavaScript CRUD app for learning and fixing",
-  "main": "src/app.js",
   "scripts": {
-    "start": "node src/app.js"
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/app.js"
   },
-  "author": "",
-  "license": "MIT"
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
 }
