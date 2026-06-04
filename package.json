@@ -1,0 +1,11 @@
+{
+  "name": "intern-js-crud-app",
+  "version": "1.0.0",
+  "description": "Buggy JavaScript CRUD app for learning and fixing",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
